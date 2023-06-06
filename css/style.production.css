@@ -145,6 +145,10 @@ button:focus,
 
 .form {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .page-header__item {
@@ -181,6 +185,19 @@ button:focus,
 .grid__item {
   background-color: hsl(178, 66%, 52%);
   padding: 20px;
+}
+
+.table {
+  width: 50%;
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+th,
+tr,
+td {
+  border: 2px solid black;
+  text-align: center;
 }
 
 @media all and (max-width: 500px) {
